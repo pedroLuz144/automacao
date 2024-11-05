@@ -16,6 +16,10 @@ public class UsuarioDTO {
         BeanUtils.copyProperties(usuario, this);
     }
 
+    public UsuarioDTO() {
+        
+    }
+
     public Long getId() {
         return id;
     }
